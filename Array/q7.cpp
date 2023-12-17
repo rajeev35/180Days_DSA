@@ -9,7 +9,7 @@ int main(){
         start++;
         end--;
     }
-    for(int i=0;i<5;i++){
+    for(int i=0;i<6;i++){
         cout<<arr[i]<<" ";
     }
 }
