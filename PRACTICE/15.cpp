@@ -7,7 +7,7 @@ int main(){
     cin>>n;
     if(n%400 == 0 ){
         cout<<"Year is Leap"<<endl;
-    }else if(n%4 && n!=100){
+    }else if(n%4 == 0 && n%100 != 0){
         cout<<"Year is Leap"<<endl;
     }
     else{
