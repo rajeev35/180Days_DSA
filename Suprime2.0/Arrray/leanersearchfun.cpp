@@ -12,7 +12,7 @@ bool leanerSeaarch(int arr[], int size, int target){
 int main(){
    int arr[5] = {1,2,3,4,5};
    int size = 5;
-   int target = 43;
+   int target = 45;
    bool ans = leanerSeaarch(arr,size,target);
    if(ans == 1){
     cout<<"Found"<<" ";
