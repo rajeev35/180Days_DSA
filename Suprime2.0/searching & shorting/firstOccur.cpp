@@ -23,7 +23,7 @@ int firstOccurence(int arr[], int n, int target){
 }
 int main(){
 
-    int arr[] = {10,20,30,30,30,30,40,50,60};
+    int arr[] = {10,30,30,30,30,30,40,50,60};
     int n = 9;
     int target = 30;
     int ansIndex = firstOccurence(arr,n,target);
